@@ -90,7 +90,20 @@ public class klasa1 {
 					System.out.print( " " );
 				}
 				System.out.println ();			}
-	}		
+			
+			///////////////////////////////////////////////////////////
+			//Symbol newtona
+			System.out.println ("program oblicza wartosc k-tego elemntu w n-tym rzedzie");
+		    
+			String n_rzad; //deklaracja zmiennej tekstowej
+			n_rzad = JOptionPane.showInputDialog("podaj numer wiersza");
+			n = Integer.parseInt(n_rzad);
+			
+			String k_element; //deklaracja zmiennej tekstowej
+			k_element = JOptionPane.showInputDialog("podaj numer elementu");
+			int k = Integer.parseInt(k_element);
+			System.out.println (" rzad " + n + " element" +k);
+			System.out.println (funkcje.symbol_newtona(n, k));
 		
-	}
+	}}
 
